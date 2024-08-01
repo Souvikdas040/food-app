@@ -1,70 +1,70 @@
-# food-app
+# Getting Started with Create React App
 
-# Overview
-This project is a full-stack application for managing food items. It utilizes Spring Boot for the backend API, React.js for the frontend, Bootstrap for styling, MySQL for database storage, and Postman for API testing.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Project Structure
-food-app/
-├── backend/
-│   ├── src/main/java/com/example/foodapp/
-│   │   ├── controller/
-│   │   ├── entity/
-│   │   ├── repository/
-│   │   ├── service/
-│   │   └── FoodAppApplication.java
-│   └── pom.xml
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── components/
-│   │   ├── services/
-│   │   └── index.js
-│   └── package.json
-├── db.sql  // SQL script for creating database tables
-└── readme.md
+## Available Scripts
 
-# Backend (Spring Boot)
-• Clone the repository.
-• Set up MySQL database with necessary tables (refer to db.sql).
-• Configure database connection details in application.properties file.
-• Build and run the Spring Boot application using Maven or your IDE.
+In the project directory, you can run:
 
-# Frontend (React.js)
-• Navigate to the frontend directory.
-• Install dependencies using npm install.
-• Start the development server using npm start.
+### `npm start`
 
-# API Endpoints
-• Food Item Endpoints:
-  ° /api/food/add: POST request to add a food item.
-  ° /api/food/update: PUT request to update a food item.
-  ° /api/food/delete/{id}: DELETE request to delete a food item.
-  ° /api/food/all: GET request to get all food items.
-  ° /api/food/search/{id}: GET request to search for a food item by ID.
-  
-• User Endpoints:
-  ° /api/user/register: POST request to register a new user.
-  ° /api/user/login: POST request to login a user.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# Database Structure
-The database should have two tables:
-• food_items (fid, fname, price)
-• users (uid, uname, pass, nm)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# Additional Notes
-• Implement proper error handling and validation.
-• Consider using security measures for API endpoints.
-• Optimize database queries for performance.
-• Add more features like user roles, food categories, etc.
+### `npm test`
 
-# Contributing
-Feel free to contribute to the project by submitting pull requests or raising issues.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Note: This is a basic outline and will require further implementation details.
+### `npm run build`
 
-Remember to replace placeholders like com.example.foodapp with your actual package name and adjust the project structure according to your preferences.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-For more detailed instructions and code examples, refer to Spring Boot, React.js, Bootstrap, and MySQL documentation.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Would you like to delve deeper into any specific part of the project?
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
