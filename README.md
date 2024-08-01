@@ -5,7 +5,6 @@ This project is a full-stack application for managing food items. It utilizes Sp
 
 # Project Structure
 food-app/
-food-app/
 ├── backend/
 │   ├── src/main/java/com/example/foodapp/
 │   │   ├── controller/
